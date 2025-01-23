@@ -1,0 +1,21 @@
+# Node.js / Next.js
+node_modules/
+.next/
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+.env
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# React (similar to Next.js)
+build/
+dist/
+
+# Vercel
+.vercel/
