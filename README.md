@@ -4,11 +4,11 @@
 This project is a **RAG-Based Summarizer and Multi-Query Question Answering System** designed to process various document formats and provide structured, concise information. The tool extracts key insights from uploaded documents and enables users to ask multiple queries about the content, delivering precise answers based on the given data.
 
 ### Key Features:
-- Summarization of documents using a **Graph-based Semantic Relation Analysis** approach.
+- Summarization of documents using a RAG(**Retrieval-Augmented Generation**)-based approach.
 - Multi-query question-answering system for in-depth analysis of documents.
-- Supports multiple file formats, including `.doc`, `.pdf`, `.json`, and plain text.
+- Supports multiple file formats, including `.doc`, `.pdf`, `.json`, `Web-Scraping` and `plain text`.
 - Frontend developed using **Next.js** for seamless user interaction.
-- Backend powered by **Python** and **LLM-based APIs** for text processing.
+- Backend powered by **Python** and **RAG Based Model** for text processing.
 
 ## Technologies Used
 This project is built using the following technologies:
@@ -22,15 +22,10 @@ This project is built using the following technologies:
    - Python (FastAPI / Flask for API development)
    - LangChain for RAG-based summarization and QnA
    - OpenAI GPT API for text generation
-   
-3. **Database & Storage**
-   - PostgreSQL / MongoDB for storing document data
-   - AWS S3 / Cloudinary for document storage
 
-4. **Additional Tools & Libraries**
-   - Tesseract OCR for text extraction from images in PDFs
-   - PyMuPDF for PDF parsing
-   - Puppeteer for webpage text extraction
+3. **Additional Tools & Libraries**
+   - PyPDF2 for PDF parsing
+   - Beautiful Soup for webpage text extraction
 
 ## Installation Guide
 To set up the project on your local system, follow these steps:
@@ -94,11 +89,9 @@ RAG-Summarizer-MultiQnA/
 
 ## Resources
 - [Next.js Documentation](https://nextjs.org/docs)
-- [FastAPI Documentation](https://fastapi.tiangolo.com/)
 - [LangChain Documentation](https://python.langchain.com/en/latest/)
-- [OpenAI GPT API](https://beta.openai.com/docs/)
-- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
+- [PyPDF2](https://pypi.org/project/PyPDF2/)
 
 ---
-**Contributions & Issues:** If you find a bug or want to improve the project, feel free to open an issue or submit a pull request. 🚀
+**Thank you for exploring!** Happy coding!
 
