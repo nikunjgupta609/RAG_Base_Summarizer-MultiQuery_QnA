@@ -34,7 +34,7 @@ To set up the project on your local system, follow these steps:
 ```
 RAG-Summarizer-MultiQnA/
 │── backend/                
-│   ├── main.py             # Create main.py or insert the main.py file
+│   ├── main.py             # Create main.py or upload the main.py file
 │   ├── models/                        
 │   └── node modules    
 │
