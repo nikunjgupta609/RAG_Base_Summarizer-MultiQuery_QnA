@@ -75,7 +75,7 @@ npm install
 ### 3. Run the Backend Server
 ```sh
 cd backend
-uvicorn app:app --reload  # For FastAPI users
+python main.py  
 ```
 
 ### 4. Run the Frontend Application
