@@ -30,6 +30,27 @@ This project is built using the following technologies:
 ## Installation Guide
 To set up the project on your local system, follow these steps:
 
+## Project Directory Structure
+```
+RAG-Summarizer-MultiQnA/
+│── backend/                
+│   ├── main.py             # Create main.py or insert the main.py file
+│   ├── models/                        
+│   └── node modules    
+│
+│── frontend/               
+│   ├── pages/              
+│   ├── app/                # Add page.tsx File here
+│   ├── components/         # Add QuestionAnswering.tsx and Summarizer.tsx under components section
+│   ├── styles/             
+│   ├── public/             
+│   ├── package.json        
+│   └── tsconfig.json       
+│
+│── requirements.txt        # Python dependencies
+└── .gitignore              # Git ignore file
+```
+
 ### 1. Clone the Repository
 ```sh
 git clone https://github.com/your-username/RAG-Summarizer-MultiQnA.git
@@ -63,29 +84,7 @@ cd frontend
 npm run dev
 ```
 
-## Project Directory Structure
-```
-RAG-Summarizer-MultiQnA/
-│── backend/                # Backend API service
-│   ├── app.py              # Main backend application
-│   ├── models/             # Model definitions
-│   ├── routes/             # API routes
-│   ├── utils/              # Utility functions
-│   ├── data/               # Sample data
-│   └── requirements.txt    # Python dependencies
-│
-│── frontend/               # Frontend UI (Next.js)
-│   ├── pages/              # Page components
-│   ├── components/         # UI components
-│   ├── styles/             # CSS styles
-│   ├── public/             # Static assets
-│   ├── package.json        # Frontend dependencies
-│   └── tsconfig.json       # TypeScript configuration
-│
-│── docs/                   # Documentation & resources
-│── README.md               # Project documentation
-└── .gitignore              # Git ignore file
-```
+
 
 ## Resources
 - [Next.js Documentation](https://nextjs.org/docs)
